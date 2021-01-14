@@ -7,18 +7,27 @@
                               
 ```
 ### Briefly
-- Communty moderator, content creator and tester at [TryHackMe](https://tryhackme.com/p/GuiltySpark).
+- content creator and tester at [TryHackMe](https://tryhackme.com/p/GuiltySpark).
 
-- Django/ReactJS web developer.
-- eLearnSecurity Junior Penetration Tester
+- Python PHP web Security tester.
+- Fill this out later eLearnSecurity Junior Penetration Tester
 
 ### Interests
 - Ethical hacking & security research.
 - WebApp testing.
 -  
 
+
 ### Find me
 - 🐦 HikeHanchos_
+<a href="https://twitter.com/MikeHanchos">
+<img align="left" alt="Saket Prag | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+</a>
+
+
+
+
+
 - 🌐 mancusocomputing.com
 
 ### I know...
