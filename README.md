@@ -8,7 +8,7 @@
 ```
 ### Briefly
 - Communty moderator, content creator and tester at [TryHackMe](https://tryhackme.com/p/GuiltySpark).
-<script src="https://tryhackme.com/badge/6038"></script>
+https://tryhackme.com/badge/6038
 - Django/ReactJS web developer.
 - eLearnSecurity Junior Penetration Tester
 
