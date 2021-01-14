@@ -26,7 +26,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 
 
 ### Find me
-- 🐦 HikeHanchos_
+- 🐦 MikeHanchos_
 <br/>
 <a href="https://twitter.com/MikeHanchos">
 <img align="left" alt="Saket Prag | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
