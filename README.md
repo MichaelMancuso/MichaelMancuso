@@ -49,10 +49,6 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
   <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/png/dev/languages/php.png" alt="PHP" style="margin:4px">
   <img src="https://raw.githubusercontent.com/Quadrified/Quadrified/master/assets/svg/dev/misc/security.svg" alt="Security" style="margin:4px">
 
-### Wakatime Stats
-<!--START_SECTION:waka-->
-```text
-No Activity tracked this Week
-```
-<!--END_SECTION:waka-->
+
+ Keys to the Castle
 <img src="https://1.bp.blogspot.com/-sQ2ughrKr-U/XLIYHbBvc_I/AAAAAAAAZhQ/4Tgjtv0dpy4B53eoCMbeu3vEwOG_pJLywCK4BGAYYCw/s1600/2015-01-09.jpg">
