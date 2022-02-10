@@ -2,6 +2,7 @@
 
 ![mancuso_security](https://user-images.githubusercontent.com/8110127/153325810-e570b4ff-affd-4d23-bf10-d3eb959ce649.jpg)
 
+![image](https://user-images.githubusercontent.com/8110127/153334371-d2fb6346-95d8-438e-ac8c-a59ea5212d8e.png)
 ```[Michael Mancuso Pen Test Report May 2019 (Redacted).pdf](https://github.com/MichaelMancuso/MichaelMancuso/files/8037815/Michael.Mancuso.Pen.Test.Report.May.2019.Redacted.pdf)
 
  __       __                                                             
@@ -15,7 +16,7 @@ $$ | $/  $$ |$$    $$ |$$ |  $$ |$$       |$$    $$/ /     $$/ $$    $$/
 $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/  
                                                                          
                                                                        
-    38RN5QkPgAhWi7FF5epDAWUu4iijJkQaEK. - Donate Bitcoin only here.  ![image](https://user-images.githubusercontent.com/8110127/153334371-d2fb6346-95d8-438e-ac8c-a59ea5212d8e.png)
+    38RN5QkPgAhWi7FF5epDAWUu4iijJkQaEK. - Donate Bitcoin only here.  
                                                    
          
 ```
