@@ -63,6 +63,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 
  Keys to the Castle - Previous Pen Test Report 
  
- [Michael Mancuso Pen Test Report May 2019 (Redacted).pdf]
+
  
 <img src="https://1.bp.blogspot.com/-sQ2ughrKr-U/XLIYHbBvc_I/AAAAAAAAZhQ/4Tgjtv0dpy4B53eoCMbeu3vEwOG_pJLywCK4BGAYYCw/s1600/2015-01-09.jpg">
+[Michael Mancuso Pen Test Report May 2019 (Redacted).pdf](https://github.com/MichaelMancuso/MichaelMancuso/files/8037760/Michael.Mancuso.Pen.Test.Report.May.2019.Redacted.pdf)
