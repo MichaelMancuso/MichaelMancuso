@@ -72,13 +72,3 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 <img src= "https://github.com/MichaelMancuso/MichaelMancuso/files/8037760/Michael.Mancuso.Pen.Test.Report.May.2019.Redacted.pdf">
 
  
- <br/>
-<a href="https://drive.google.com/file/d/1Fo7wAi_wlv94oij2xY6i80gxQ-0PTS7p/view?usp=sharing">
-<img align="left" alt="Saket Prag | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-</a>
-<br />
- 
- 
- 
- 
-  https://drive.google.com/file/d/1Fo7wAi_wlv94oij2xY6i80gxQ-0PTS7p/view?usp=sharing
