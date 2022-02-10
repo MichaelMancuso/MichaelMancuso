@@ -14,7 +14,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
          
 ```
 ### Briefly
-<img src="https://drive.google.com/file/d/1x7LlrSym0DMrfXlY-k5yfmZGBIeltleQ/view?usp=sharing"> 
+
 - my progress at HTB [Hack the Box}  https://www.hackthebox.eu/profile/16280
 
 - my progress at [TryHackMe](https://tryhackme.com/p/GuiltySpark).
@@ -40,6 +40,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 
 
 
+![mancuso_security](https://user-images.githubusercontent.com/8110127/153325810-e570b4ff-affd-4d23-bf10-d3eb959ce649.jpg)
 
 - 🌐 mancusocomputing.com
 
@@ -48,7 +49,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 <p align="center">
 
   <!-- For more icons please follow  https://github.com/MikeCodesDotNET/ColoredBadges -->
-
+  <img src="https://drive.google.com/file/d/1x7LlrSym0DMrfXlY-k5yfmZGBIeltleQ/view?usp=sharing"> 
   <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg" alt="Python" style="margin:4px">
   <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/tools/bash.svg" alt="Bash" style="margin:4px">
   <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/png/dev/languages/php.png" alt="PHP" style="margin:4px">
