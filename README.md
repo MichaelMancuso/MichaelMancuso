@@ -16,7 +16,7 @@ $$ | $/  $$ |$$    $$ |$$ |  $$ |$$       |$$    $$/ /     $$/ $$    $$/
 $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/  
                                                                          
                                                                        
-    38RN5QkPgAhWi7FF5epDAWUu4iijJkQaEK. - Donate Bitcoin only here.  
+    38RN5QkPgAhWi7FF5epDAWUu4iijJkQaEK - Donate Bitcoin only here.  
                                                    
          
 ```
