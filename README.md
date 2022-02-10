@@ -2,7 +2,8 @@
 
 ![mancuso_security](https://user-images.githubusercontent.com/8110127/153325810-e570b4ff-affd-4d23-bf10-d3eb959ce649.jpg)
 
-```
+```[Michael Mancuso Pen Test Report May 2019 (Redacted).pdf](https://github.com/MichaelMancuso/MichaelMancuso/files/8037815/Michael.Mancuso.Pen.Test.Report.May.2019.Redacted.pdf)
+
  __       __                                                             
 /  \     /  |                                                            
 $$  \   /$$ |  ______   _______    _______  __    __   _______   ______  
