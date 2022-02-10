@@ -15,7 +15,8 @@ $$ | $/  $$ |$$    $$ |$$ |  $$ |$$       |$$    $$/ /     $$/ $$    $$/
 $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/  
                                                                          
                                                                        
-                                                       
+    38RN5QkPgAhWi7FF5epDAWUu4iijJkQaEK. - Donate Bitcoin only here.  ![image](https://user-images.githubusercontent.com/8110127/153334371-d2fb6346-95d8-438e-ac8c-a59ea5212d8e.png)
+                                                   
          
 ```
 ### Briefly
