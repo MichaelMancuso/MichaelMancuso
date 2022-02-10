@@ -14,7 +14,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
          
 ```
 ### Briefly
- <img src="https://drive.google.com/file/d/1x7LlrSym0DMrfXlY-k5yfmZGBIeltleQ/view?usp=sharing"> 
+<img src="https://drive.google.com/file/d/1x7LlrSym0DMrfXlY-k5yfmZGBIeltleQ/view?usp=sharing"> 
 - my progress at HTB [Hack the Box}  https://www.hackthebox.eu/profile/16280
 
 - my progress at [TryHackMe](https://tryhackme.com/p/GuiltySpark).
