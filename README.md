@@ -1,3 +1,7 @@
+
+
+![mancuso_security](https://user-images.githubusercontent.com/8110127/153325810-e570b4ff-affd-4d23-bf10-d3eb959ce649.jpg)
+
 ```
  __       __                                                             
 /  \     /  |                                                            
@@ -40,7 +44,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 
 
 
-![mancuso_security](https://user-images.githubusercontent.com/8110127/153325810-e570b4ff-affd-4d23-bf10-d3eb959ce649.jpg)
+
 
 - 🌐 mancusocomputing.com
 
