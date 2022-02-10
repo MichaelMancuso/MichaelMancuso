@@ -28,7 +28,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 
 - my progress at PenTest Lab https://pentesterlab.com/profile/Michael_Mancuso
 
-- Network and web Security tester.
+- Network and Web Application Pen Tester.
 
 
 ### Interests
