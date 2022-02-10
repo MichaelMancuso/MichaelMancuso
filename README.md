@@ -2,8 +2,6 @@
 
 ![mancuso_security](https://user-images.githubusercontent.com/8110127/153325810-e570b4ff-affd-4d23-bf10-d3eb959ce649.jpg)
 
-(https://github.com/MichaelMancuso/MichaelMancuso/files/8037815/Michael.Mancuso.Pen.Test.Report.May.2019.Redacted.pdf)
-
  __       __                                                             
 /  \     /  |                                                            
 $$  \   /$$ |  ______   _______    _______  __    __   _______   ______  
@@ -49,8 +47,6 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 
 
 
-
-
 - 🌐 mancusocomputing.com
 
 ### I know...
@@ -68,6 +64,8 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
  Keys to the Castle - Previous Pen Test Report 
  https://drive.google.com/file/d/1Fo7wAi_wlv94oij2xY6i80gxQ-0PTS7p/view?usp=sharing
  
+(https://github.com/MichaelMancuso/MichaelMancuso/files/8037815/Michael.Mancuso.Pen.Test.Report.May.2019.Redacted.pdf)
+
 
  
 <img src="https://1.bp.blogspot.com/-sQ2ughrKr-U/XLIYHbBvc_I/AAAAAAAAZhQ/4Tgjtv0dpy4B53eoCMbeu3vEwOG_pJLywCK4BGAYYCw/s1600/2015-01-09.jpg">
