@@ -14,8 +14,7 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
                                                                          
  
  
- [download](https://user-images.githubusercontent.com/8110127/153332464-2ca7cf8e-8c3d-48f8-bb87-9da8ff45f4dd.png)
- 
+
 38RN5QkPgAhWi7FF5epDAWUu4iijJkQaEK                                                                      
                                                        
          
