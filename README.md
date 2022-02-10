@@ -14,10 +14,15 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
          
 ```
 ### Briefly
-- content creator and tester at [TryHackMe](https://tryhackme.com/p/GuiltySpark).
+
 - me at HTB [Hack the Box}  https://www.hackthebox.eu/profile/16280
-- Python PHP web Security tester.
-- Fill this out later eLearnSecurity Junior Penetration Tester
+
+- content creator and tester at [TryHackMe](https://tryhackme.com/p/GuiltySpark).
+
+- me at PenTest Lab https://pentesterlab.com/profile/Michael_Mancuso
+
+- Network and web Security tester.
+
 
 ### Interests
 - Ethical hacking & security research.
