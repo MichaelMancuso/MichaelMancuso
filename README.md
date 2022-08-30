@@ -19,7 +19,7 @@ MicrosoftMicrosoft Issued Apr 2020 · No Expiration DateIssued Apr 2020 · No Ex
 
 
 CEH (Certified Ethical Hacker)CEH (Certified Ethical Hacker)
-EC-CouncilEC-Council Issued Sep 2012 · No Expiration DateIssued Sep 2012 · No Expiration Date Credential ID ECC38515407880Credential ID ECC38515407880
+EC-CouncilEC-Council Issued Sep 2012 · No Expiration DateIssued Sep 2012 · No Expiration Date Credential ID ECC38515407880
 
 
 
@@ -31,7 +31,7 @@ Linux Professional Institute (LPI)Linux Professional Institute (LPI) Issued Dec 
 
 
 EC-Council Certified Security Analyst: Penetration Testing (ECSA)EC-Council Certified Security Analyst: Penetration Testing (ECSA)
-EC-CouncilEC-Council Issued Feb 2020 · Expires Feb 2023Issued Feb 2020 · Expires Feb 2023 Credential ID ECC7649531028Credential ID ECC7649531028
+EC-CouncilEC-Council Issued Feb 2020 · Expires Feb 2023Issued Feb 2020 · Expires Feb 2023 Credential ID ECC7649531028
 
 
 
