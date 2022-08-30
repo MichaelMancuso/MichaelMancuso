@@ -43,13 +43,7 @@ Amazon Web Services (AWS)Amazon Web Services (AWS) Issued Oct 2019 · Expires Oc
 VMware Certified Advanced Professional 6.5 - Data Center Virtualization DesignVMware Certified Advanced Professional 6.5 - Data Center Virtualization Design
 VMwareVMware Issued Dec 2018 · Expired Dec 2020Issued Dec 2018 · Expired Dec 2020 Credential ID VMW-00891764B-00143834Credential ID VMW-00891764B-00143834
 
-
-
-Hack The Box 
-RANK HackerRANK Hacker
-Hack The Box
-                                                   
-         
+                                                          
 ```
 ### Briefly
 
