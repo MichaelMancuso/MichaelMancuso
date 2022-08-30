@@ -62,18 +62,6 @@ VMwareVMware Issued Dec 2018 · Expired Dec 2020Issued Dec 2018 · Expired Dec 2
 - AWS - Azure Cloud Penetration testing.  
 
 
-### Find me
-- 🐦 MikeHanchos_
-<br/>
-<a href="https://twitter.com/MikeHanchos">
-<img align="left" alt="Saket Prag | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-</a>
-<br />
-
-
-
-
-
 ### I know...
 
 <p align="center">
