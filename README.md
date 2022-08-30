@@ -5,18 +5,49 @@
 ![image](https://user-images.githubusercontent.com/8110127/153334371-d2fb6346-95d8-438e-ac8c-a59ea5212d8e.png)
 ```[Michael Mancuso Pen Test Report May 2019 (Redacted).pdf](https://github.com/MichaelMancuso/MichaelMancuso/files/8037815/Michael.Mancuso.Pen.Test.Report.May.2019.Redacted.pdf)
 
- __       __                                                             
-/  \     /  |                                                            
-$$  \   /$$ |  ______   _______    _______  __    __   _______   ______  
-$$$  \ /$$$ | /      \ /       \  /       |/  |  /  | /       | /      \ 
-$$$$  /$$$$ | $$$$$$  |$$$$$$$  |/$$$$$$$/ $$ |  $$ |/$$$$$$$/ /$$$$$$  |
-$$ $$ $$/$$ | /    $$ |$$ |  $$ |$$ |      $$ |  $$ |$$      \ $$ |  $$ |
-$$ |$$$/ $$ |/$$$$$$$ |$$ |  $$ |$$ \_____ $$ \__$$ | $$$$$$  |$$ \__$$ |
-$$ | $/  $$ |$$    $$ |$$ |  $$ |$$       |$$    $$/ /     $$/ $$    $$/ 
-$$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/  
-                                                                         
-                                                                       
- 
+
+
+ Licenses & certifications
+
+Microsoft Certified: Security, Compliance, and Identity FundamentalsMicrosoft Certified: Security, Compliance, and Identity Fundamentals
+MicrosoftMicrosoft Issued May 2022 · No Expiration DateIssued May 2022 · No Expiration Date
+
+
+
+Microsoft Certified: Azure FundamentalsMicrosoft Certified: Azure Fundamentals
+MicrosoftMicrosoft Issued Apr 2020 · No Expiration DateIssued Apr 2020 · No Expiration Date
+
+
+CEH (Certified Ethical Hacker)CEH (Certified Ethical Hacker)
+EC-CouncilEC-Council Issued Sep 2012 · No Expiration DateIssued Sep 2012 · No Expiration Date Credential ID ECC38515407880Credential ID ECC38515407880
+
+
+
+Linux Professional Institute (LPI)
+
+Certified Linux Administrator (LPIC-1)Certified Linux Administrator (LPIC-1)
+Linux Professional Institute (LPI)Linux Professional Institute (LPI) Issued Dec 2018 · Expires Dec 2023Issued Dec 2018 · Expires Dec 2023 Credential ID LPI ID LPI000416013Credential ID LPI ID LPI000416013
+
+
+
+EC-Council Certified Security Analyst: Penetration Testing (ECSA)EC-Council Certified Security Analyst: Penetration Testing (ECSA)
+EC-CouncilEC-Council Issued Feb 2020 · Expires Feb 2023Issued Feb 2020 · Expires Feb 2023 Credential ID ECC7649531028Credential ID ECC7649531028
+
+
+
+AWS Certified Solutions Architect – AssociateAWS Certified Solutions Architect – Associate
+Amazon Web Services (AWS)Amazon Web Services (AWS) Issued Oct 2019 · Expires Oct 2022Issued Oct 2019 · Expires Oct 2022
+
+
+
+VMware Certified Advanced Professional 6.5 - Data Center Virtualization DesignVMware Certified Advanced Professional 6.5 - Data Center Virtualization Design
+VMwareVMware Issued Dec 2018 · Expired Dec 2020Issued Dec 2018 · Expired Dec 2020 Credential ID VMW-00891764B-00143834Credential ID VMW-00891764B-00143834
+
+
+
+Hack The Box 
+RANK HackerRANK Hacker
+Hack The Box
                                                    
          
 ```
@@ -28,13 +59,13 @@ $$/      $$/  $$$$$$$/ $$/   $$/  $$$$$$$/  $$$$$$/  $$$$$$$/   $$$$$$/
 
 - my progress at PenTest Lab https://pentesterlab.com/profile/Michael_Mancuso
 
-- Network and Web Application Pen Tester.
+- Network Infrastructure and Web Application Pen Tester.
 
 
 ### Interests
 - Ethical hacking & security research.
 - WebApp testing.
--  
+- AWS - Azure Cloud Penetration testing.  
 
 
 ### Find me
