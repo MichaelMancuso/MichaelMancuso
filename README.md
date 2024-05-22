@@ -62,15 +62,4 @@ VMwareVMware Issued Dec 2018 · Expired Dec 2020Issued Dec 2018 · Expired Dec 2
 - AWS - Azure Cloud Penetration testing.  
 
 
-### I know...
-
-<p align="center">
-
-  <!-- For more icons please follow  https://github.com/MikeCodesDotNET/ColoredBadges -->
-  <img src="https://drive.google.com/file/d/1x7LlrSym0DMrfXlY-k5yfmZGBIeltleQ/view?usp=sharing"> 
-  <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg" alt="Python" style="margin:4px">
-  <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/tools/bash.svg" alt="Bash" style="margin:4px">
-  <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/png/dev/languages/php.png" alt="PHP" style="margin:4px">
-  <img src="https://raw.githubusercontent.com/Quadrified/Quadrified/master/assets/svg/dev/misc/security.svg" alt="Security" style="margin:4px">
-
 
