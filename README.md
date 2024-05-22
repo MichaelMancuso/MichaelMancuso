@@ -3,8 +3,7 @@
 
 ![image1](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
-![image](https://user-images.githubusercontent.com/8110127/153334371-d2fb6346-95d8-438e-ac8c-a59ea5212d8e.png)
-```[Michael Mancuso Pen Test Report May 2019 (Redacted).pdf](https://github.com/MichaelMancuso/MichaelMancuso/files/8037815/Michael.Mancuso.Pen.Test.Report.May.2019.Redacted.pdf)
+
 
 
 
