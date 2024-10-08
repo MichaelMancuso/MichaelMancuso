@@ -4,8 +4,7 @@
 ![image1](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
 
-[embed]https://drive.google.com/file/d/1GjRD6CWVBzHSznwEZKkJKXMZsNYwqq1O/view?usp=sharing[embed]
-
+{google_docs}https://drive.google.com/file/d/1GjRD6CWVBzHSznwEZKkJKXMZsNYwqq1O/view?usp=sharing{google_docs}
 
  Licenses & certifications
 
