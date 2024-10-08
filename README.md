@@ -4,7 +4,9 @@
 ![image1](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
 
-<object data="./MMancusoResume.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="https://github.com/MichaelMancuso/MichaelMancuso/blob/2395a6f735669a611aaa3b4e929fbe808e0cb8df/MMancusoResume.pdf" width="1000" height="1000" type='application/pdf'></object>
+
+
 
                                                           
 ```
