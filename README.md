@@ -4,7 +4,7 @@
 ![image1](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
 
-<embed src="https://github.com/MichaelMancuso/MichaelMancuso/blob/2395a6f735669a611aaa3b4e929fbe808e0cb8df/MMancusoResume.pdf" type="application/pdf"/>
+<embed src="https://github.com/MichaelMancuso/MichaelMancuso/blob/2395a6f735669a611aaa3b4e929fbe808e0cb8df/MMancusoResume.pdf" type="application/pdf" />
                                                           
 ```
 ### Briefly
