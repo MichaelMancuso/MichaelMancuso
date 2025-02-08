@@ -4,7 +4,7 @@
 ![image1](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
 
-| <a href="https://github.com/az7rb"><img align="center" src="https://github-readme-stats.vercel.app/api?username=az7rb&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="az7rb" /></a> | <a href="https://github.com/az7rb"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=az7rb&layout=compact&theme=buefy&hide_border=true" /></a> |
+| <a href="https://github.com/MichaelMancuso"><img align="center" src="https://github-readme-stats.vercel.app/api?username=MichaelMancuso&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Michael Mancuso" /></a> | <a href="https://github.com/az7rb"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelMancuso&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
 
