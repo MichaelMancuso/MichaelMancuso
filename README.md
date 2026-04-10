@@ -1,6 +1,14 @@
-#  Michael Mancuso
+# 👋 Michael Mancuso
 
 ![Banner](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=F59E0B&center=true&vCenter=true&width=1000&lines=Senior+Penetration+Tester;Red+Team+%7C+Cloud+Security+%7C+Purple+Team;Azure+%7C+AWS+%7C+Active+Directory+Security;PowerShell+Automation+and+Offensive+Security+Engineering" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MichaelMancuso&label=Profile%20Views&color=0e76a8&style=for-the-badge" alt="Profile views" />
+</p>
 
 ---
 
@@ -15,11 +23,29 @@
 ## 📊 GitHub Dashboard
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MichaelMancuso&show_icons=true&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MichaelMancuso&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelMancuso&layout=compact&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelMancuso&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+</p>
+
+---
+
+## 🚧 Currently Working On
+
+- Azure and Office 365 penetration testing and security validation
+- Purple team automation mapped to MITRE ATT&CK techniques
+- PowerShell tooling for cloud and identity enumeration
+- Red vs Blue simulation content for LinkedIn and GitHub
+- Detection engineering ideas for Azure, Entra ID, and Active Directory
+
+---
+
+## 🐍 Contribution Activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MichaelMancuso/MichaelMancuso/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
 </p>
 
 ---
@@ -46,10 +72,10 @@ Strong knowledge of scripting languages including Bash, Python, and PowerShell. 
 
 - Conduct SAST, DAST, SCA, and SQLi testing using Burp Suite, Postman, SQLMap
 - Perform web application exploitation including XSS, SQLi, and session hijacking
-- Execute Red Team testing using Mimikatz, BloodHound, Rubeus, ADRecon
+- Execute Red Team testing using Mimikatz, BloodHound, Rubeus, and ADRecon
 - Develop custom GitHub automation scripts
 - Integrate secure SDLC practices
-- Perform AWS penetration testing using PACU, Awspx, BBOT
+- Perform AWS penetration testing using PACU, Awspx, and BBOT
 
 ### Penetration Tester II — Texas Comptroller (2019 – 2022)
 
@@ -62,7 +88,7 @@ Strong knowledge of scripting languages including Bash, Python, and PowerShell. 
 
 - Web and network penetration testing
 - FISMA / NIST security assessments
-- Metasploit, BurpSuite Pro, Cobalt Strike
+- Metasploit, BurpSuite Pro, and Cobalt Strike
 - OSINT methodology development
 
 ---
