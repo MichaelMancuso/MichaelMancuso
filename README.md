@@ -1,4 +1,4 @@
-# 👋 Michael Mancuso
+#  Michael Mancuso
 
 ![Banner](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
@@ -15,20 +15,11 @@
 ## 📊 GitHub Dashboard
 
 <p align="center">
-  <a href="https://github.com/MichaelMancuso?tab=followers">
-    <img src="https://img.shields.io/github/followers/MichaelMancuso?label=Followers&style=flat-square&color=0e76a8" />
-  </a>
-  <a href="https://github.com/MichaelMancuso?tab=repositories">
-    <img src="https://img.shields.io/badge/Public%20Repos-Explore-181717?style=flat-square&logo=github" />
-  </a>
-  <a href="https://github.com/MichaelMancuso">
-    <img src="https://img.shields.io/badge/Profile-MichaelMancuso-2ea44f?style=flat-square&logo=github" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=MichaelMancuso&show_icons=true&theme=github_dark&hide_border=true" />
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=MichaelMancuso&show_icons=true&include_all_commits=true&rank_icon=github&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelMancuso&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MichaelMancuso&layout=compact&theme=github_dark&hide_border=true" />
 </p>
 
 ---
@@ -43,42 +34,86 @@
 
 ## 🎯 Qualification Summary
 
-Operational experience performing external and internal ethical hacking assessments of computer network defenses, threat modeling, and vulnerability exposure evaluations. Strong experience mitigating technical and non-technical security gaps across diverse environments.
+Operational experience performing external and internal ethical hacking assessments of computer network defenses, threat modeling, and vulnerability exposure evaluations mitigating technical and non-technical security gaps across a wide range of environments. Closely follow APT and cybercriminal techniques, tactics, and procedures within approved ethical hacking engagements.
+
+Strong knowledge of scripting languages including Bash, Python, and PowerShell. Understanding of web frameworks such as JavaScript, ASP.NET, and PHP. Experience testing applications for OWASP Top 10 vulnerabilities including input validation flaws, broken access control, session misconfigurations, cross-site scripting, SQL injection, and server misconfigurations.
 
 ---
 
 ## 💼 Work Experience
 
 ### Senior Penetration Tester — Inovalon (Nov 2022 – Current)
-- SAST / DAST / SCA testing
-- Red Team AD testing
-- AWS cloud penetration testing
-- Custom security automation scripting
+
+- Conduct SAST, DAST, SCA, and SQLi testing using Burp Suite, Postman, SQLMap
+- Perform web application exploitation including XSS, SQLi, and session hijacking
+- Execute Red Team testing using Mimikatz, BloodHound, Rubeus, ADRecon
+- Develop custom GitHub automation scripts
+- Integrate secure SDLC practices
+- Perform AWS penetration testing using PACU, Awspx, BBOT
 
 ### Penetration Tester II — Texas Comptroller (2019 – 2022)
-- Built enterprise pentesting program
-- AWS pentesting platform
-- AD privilege escalation discovery
+
+- Built enterprise penetration testing program
+- AWS-based pentesting platform deployment
+- Active Directory red team assessments
+- Privilege escalation discovery using BloodHound and ADRecon
 
 ### Penetration Tester — Delta Risk (2016 – 2019)
-- Web & network pentesting
-- NIST / FISMA assessments
-- OSINT methodology
+
+- Web and network penetration testing
+- FISMA / NIST security assessments
+- Metasploit, BurpSuite Pro, Cobalt Strike
+- OSINT methodology development
+
+---
+
+## 🎖 Military Experience
+
+Cyber Operations — Air Force / Texas Air National Guard  
+Top Secret Clearance  
 
 ---
 
 ## 🎓 Education
+
 Dallas Baptist University  
 Bachelor of Business Administration  
 
 ---
 
 ## 🏅 Certifications
-- ECSA
-- CEH
-- AWS Solutions Architect
+
+![CEH](https://img.shields.io/badge/CEH-Certified%20Ethical%20Hacker-red?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-Solutions%20Architect-orange?style=flat-square)
+![Azure](https://img.shields.io/badge/Azure-AZ--900-blue?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-LPIC--1-yellow?style=flat-square)
+![VMware](https://img.shields.io/badge/VMware-Advanced%20Professional-green?style=flat-square)
+
+- EC-Council Certified Security Analyst (ECSA)
+- Certified Ethical Hacker (CEH)
+- AWS Certified Solutions Architect
 - Microsoft SC-900
 - Microsoft AZ-900
 - LPIC-1
-- VMware Advanced Professional
+- VMware Certified Advanced Professional
 
+---
+
+## 🧰 Core Skills
+
+![Red Team](https://img.shields.io/badge/Red%20Team-Offensive%20Security-darkred?style=for-the-badge)
+![Cloud](https://img.shields.io/badge/Cloud-Azure%20%7C%20AWS-blue?style=for-the-badge)
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-blue?style=for-the-badge)
+![AD](https://img.shields.io/badge/Active%20Directory-Red%20Team-purple?style=for-the-badge)
+![Purple](https://img.shields.io/badge/Purple%20Team-Detection%20Engineering-violet?style=for-the-badge)
+
+---
+
+## 🔥 Featured Work
+
+- Azure MITRE ATT&CK T1526 Enumeration Tool
+- Cloud Red Team Automation Scripts
+- Active Directory Attack Simulation Framework
+- Purple Team Detection Validation Scripts
+
+---
