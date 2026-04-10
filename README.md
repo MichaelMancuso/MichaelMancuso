@@ -1,4 +1,4 @@
-# Michael Mancuso
+# 👋 Michael Mancuso
 
 ![Banner](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
@@ -12,7 +12,7 @@
 
 ---
 
-## Recruiter Snapshot
+## 🧠 Recruiter Snapshot
 
 Senior Penetration Tester specializing in **Red Team operations, Azure/AWS cloud security, Active Directory exploitation, and purple team detection engineering**.  
 Experienced in building **custom offensive tooling**, conducting **enterprise penetration tests**, and improving **SOC detection coverage aligned to MITRE ATT&CK**.
@@ -31,20 +31,6 @@ Experienced in building **custom offensive tooling**, conducting **enterprise pe
 
 ---
 
-## 🔗 Connect
-
-<p align="center">
-<a href="https://github.com/MichaelMancuso">
-<img src="https://img.shields.io/badge/GitHub-MichaelMancuso-black?style=for-the-badge&logo=github" />
-</a>
-<a href="mailto:mancusomjm@gmail.com">
-<img src="https://img.shields.io/badge/Email-mancusomjm%40gmail.com-red?style=for-the-badge&logo=gmail" />
-</a>
-<img src="https://img.shields.io/badge/Clearance-Top%20Secret%20SCI-darkgreen?style=for-the-badge" />
-</p>
-
----
-
 ## 📊 GitHub Dashboard
 
 <p align="center">
@@ -57,14 +43,26 @@ Experienced in building **custom offensive tooling**, conducting **enterprise pe
 
 ---
 
+## 🔴 Offensive Zero-Day Radar
+
+<p align="center">
+<a href="https://michaelmancuso.github.io/offensive_zero_day_radar.html">
+<img src="https://img.shields.io/badge/Launch-Zero%20Day%20Radar-red?style=for-the-badge&logo=github" />
+</a>
+</p>
+
+Interactive visualization of **actively exploited zero-days** and offensive risk prioritization.
+
+---
+
 ## 🚧 Currently Working On
 
-- AWS Attacks and Red Team TTP's
-- Azure / Entra ID penetration testing tooling
-- Active Directory detection evasion simulations
-- Cloud enumeration & privilege escalation research
-- MITRE ATT&CK purple team automation
-- Red vs Blue training content
+- AWS Attacks and Red Team TTP's  
+- Azure / Entra ID penetration testing tooling  
+- Active Directory detection evasion simulations  
+- Cloud enumeration & privilege escalation research  
+- MITRE ATT&CK purple team automation  
+- Red vs Blue training content  
 
 ---
 
@@ -89,27 +87,27 @@ https://github.com/MichaelMancuso
 ## 💼 Experience Snapshot
 
 **Senior Penetration Tester – Inovalon**
-- Red Team AD exploitation
-- Cloud penetration testing (AWS/Azure)
-- Custom offensive PowerShell tooling
-- Secure SDLC integration
+- Red Team AD exploitation  
+- Cloud penetration testing (AWS/Azure)  
+- Custom offensive PowerShell tooling  
+- Secure SDLC integration  
 
 **Penetration Tester II – Texas Comptroller**
-- Built enterprise penetration testing program
-- AWS pentesting platform deployment
-- Active Directory red team exercises
+- Built enterprise penetration testing program  
+- AWS pentesting platform deployment  
+- Active Directory red team exercises  
 
 **Penetration Tester – Delta Risk**
-- Web and network penetration testing
-- NIST / FISMA security assessments
-- OSINT methodology development
+- Web and network penetration testing  
+- NIST / FISMA security assessments  
+- OSINT methodology development  
 
 ---
 
 ## 🎖 Military Experience
 
 Cyber Operations — Air Force / Texas Air National Guard  
-Top Secret Clearance
+Top Secret Clearance  
 
 ---
 
@@ -134,5 +132,3 @@ Top Secret Clearance
 - PowerShell Offensive Automation  
 - Web Application Penetration Testing  
 - Cloud Enumeration & Privilege Escalation  
-
----
