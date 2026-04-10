@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recent Actively Exploited Zero-Days - Offensive Risk Radar</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    :root{
+      --bg:#0b0d10; --panel:#11151b; --panel2:#151a22; --line:#2a313d;
+      --text:#e8edf3; --muted:#9aa6b2; --red:#ff4d5a; --accent:#ff7b72;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#090b0e 0%,#0b0d10 100%);color:var(--text);font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+    .wrap{max-width:1280px;margin:0 auto;padding:28px;}
+    .hero,.footer,.panel{border:1px solid var(--line);border-radius:20px;box-shadow:0 14px 34px rgba(0,0,0,.25);}
+    .hero{background:radial-gradient(circle at top right, rgba(255,77,90,.18), transparent 28%),radial-gradient(circle at bottom left, rgba(215,38,56,.12), transparent 22%),linear-gradient(180deg,#11141a 0%, #0e1116 100%);padding:28px 30px;}
+    .footer,.panel{background:linear-gradient(180deg,var(--panel) 0%, var(--panel2) 100%);}
+    .eyebrow{color:var(--accent);letter-spacing:.18em;text-transform:uppercase;font-size:12px;font-weight:700;margin-bottom:10px;}
+    h1{margin:0 0 10px 0;font-size:40px;line-height:1.05;}
+    .sub{margin:0;color:var(--muted);font-size:16px;line-height:1.6;max-width:980px;}
+    .grid{display:grid;grid-template-columns:1.3fr .9fr;gap:20px;margin-top:20px;}
+    .panel-header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 20px;border-bottom:1px solid var(--line);}
+    .panel-title{font-size:18px;font-weight:700;margin:0;}
+    .toolbar select{background:#0e1217;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;}
+    #chart{width:100%;height:700px;}
+    .legend-note{color:var(--muted);font-size:13px;padding:0 20px 18px;margin-top:-8px;}
+    .side{padding:20px;}
+    .kpis{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px;}
+    .kpi,.detail{background:#0e1217;border:1px solid var(--line);border-radius:16px;}
+    .kpi{padding:14px;}
+    .label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em;}
+    .value{font-size:28px;font-weight:800;margin-top:6px;color:#fff;}
+    .detail{padding:16px;margin-top:12px;}
+    .detail h3{margin:0 0 6px 0;font-size:18px;}
+    .chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 12px 0;}
+    .chip{background:rgba(255,77,90,.12);border:1px solid rgba(255,77,90,.35);color:#ffd8dc;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700;}
+    .detail p,.detail ul{color:var(--muted);line-height:1.6;font-size:14px;}
+    .footer{margin-top:20px;padding:18px 20px;color:var(--muted);line-height:1.6;font-size:14px;}
+    @media (max-width:980px){.grid{grid-template-columns:1fr;}#chart{height:560px;}h1{font-size:30px;}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Dynamic offensive view</div>
+      <h1>Recent Actively Exploited Zero-Days</h1>
+      <p class="sub">
+        A polished, analyst-style radar that compares a curated set of high-profile 2025-2026 zero-days and actively exploited vulnerabilities.
+        Use the metric selector to pivot between <strong>Operational Risk</strong>, <strong>Exploit Momentum</strong>, <strong>Internet Exposure</strong>, and <strong>Patch Urgency</strong>.
+        Scores are normalized on a 1-10 analyst scale to make cross-case comparison easier; they are not vendor severity ratings.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">Offensive Risk Radar</h2>
+          <div class="toolbar">
+            <select id="metricSelect">
+              <option value="operationalRisk">Operational Risk</option>
+              <option value="exploitMomentum">Exploit Momentum</option>
+              <option value="internetExposure">Internet Exposure</option>
+              <option value="patchUrgency">Patch Urgency</option>
+            </select>
+          </div>
+        </div>
+        <div id="chart"></div>
+        <div class="legend-note">Hover a point for quick info. Click a point to load the analyst summary.</div>
+      </div>
+
+      <div class="panel side">
+        <div class="kpis">
+          <div class="kpi"><div class="label">Tracked items</div><div class="value">8</div></div>
+          <div class="kpi"><div class="label">Default view</div><div class="value" id="kpiMetric">Risk</div></div>
+        </div>
+
+        <div class="detail">
+          <h3 id="detailTitle">CVE-2026-1603</h3>
+          <div class="chip-row" id="detailChips"></div>
+          <p id="detailSummary"></p>
+          <ul id="detailBullets"></ul>
+        </div>
+
+        <div class="detail">
+          <h3>How to read this chart</h3>
+          <p><strong>Operational Risk</strong> blends exploit reality, blast radius, remote reachability, and how likely the issue is to matter to a defender right now.</p>
+          <p><strong>Exploit Momentum</strong> emphasizes current exploitation activity and adversary interest. <strong>Internet Exposure</strong> favors browser and edge-facing software. <strong>Patch Urgency</strong> prioritizes how quickly defenders should move based on exploitation, exposure, and likely impact.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <strong>Methodology note:</strong> this dashboard is intentionally curated and not exhaustive. It focuses on a small set of recent, high-signal cases so the chart stays readable and useful in a portfolio or briefing context.
+    </section>
+  </div>
+
+  <script>
+    const vulns = [
+      {id:"CVE-2026-1603",label:"Ivanti EPM Auth Bypass",vendor:"Ivanti",family:"Edge / Enterprise Mgmt",operationalRisk:9.6,exploitMomentum:9.1,internetExposure:8.2,patchUrgency:9.7,chips:["Auth bypass","Enterprise mgmt","KEV"],summary:"High-value enterprise management software with active exploitation signals and strong urgency because authentication bypasses frequently create a fast path to meaningful access.",bullets:["Good example of why enterprise control planes deserve higher weighting than raw CVSS alone.","Likely to be prioritized by operators because management platforms often sit near high-value assets.","Use this point to tell a 'patch now, hunt immediately after' story in a briefing."]},
+      {id:"CVE-2026-1281",label:"Ivanti EPMM Code Injection",vendor:"Ivanti",family:"MDM / Edge",operationalRisk:9.4,exploitMomentum:8.8,internetExposure:8.7,patchUrgency:9.6,chips:["Code injection","Mobile mgmt","KEV"],summary:"Code injection in a mobile device management platform combines broad enterprise relevance with meaningful remote exposure and strong patch urgency.",bullets:["Useful when discussing internet-exposed admin surfaces.","Fits an offensive narrative around control-plane targeting and tenant reach.","Defenders should treat this as both a patching and post-exploitation investigation case."]},
+      {id:"CVE-2026-1340",label:"Ivanti EPMM Code Injection",vendor:"Ivanti",family:"MDM / Edge",operationalRisk:9.5,exploitMomentum:8.9,internetExposure:8.7,patchUrgency:9.7,chips:["Code injection","Mobile mgmt","KEV"],summary:"Sits in the same operational bucket as CVE-2026-1281 and remains a strong candidate for high-priority remediation because it affects a management tier with broad downstream consequences.",bullets:["A strong chart point for showing clustered risk around a single product family.","Pairs well with discussion of asset inventory and external exposure control.","Highlights that management tooling often has outsized offensive value."]},
+      {id:"CVE-2026-2441",label:"Chrome Use-After-Free",vendor:"Google Chrome",family:"Browser",operationalRisk:8.4,exploitMomentum:8.7,internetExposure:9.8,patchUrgency:8.9,chips:["Browser","In the wild","Endpoint risk"],summary:"A browser zero-day with wide exposure because Chrome sits directly in front of users and attacker-controlled content, making internet exposure nearly maximal.",bullets:["Excellent example of endpoint-driven initial access risk.","Exposure is massive even when operational impact varies by exploit chain.","Useful for emphasizing why browser patch SLAs must stay aggressive."]},
+      {id:"CVE-2026-3910",label:"Chrome V8 Issue",vendor:"Google Chrome",family:"Browser",operationalRisk:8.7,exploitMomentum:9.0,internetExposure:9.8,patchUrgency:9.0,chips:["V8","In the wild","Endpoint risk"],summary:"Another Chrome in-the-wild case with high attacker interest and nearly universal browser exposure, which keeps urgency elevated even outside targeted campaigns.",bullets:["A strong point when explaining how endpoint risk scales with user population.","V8-related issues often land well in executive briefings because Chrome is easy to understand.","Good for contrasting broad endpoint exposure versus narrower but deeper edge-platform risk."]},
+      {id:"CVE-2026-5281",label:"Chrome In-the-Wild Bug",vendor:"Google Chrome",family:"Browser",operationalRisk:8.5,exploitMomentum:8.8,internetExposure:9.8,patchUrgency:8.8,chips:["Browser","In the wild","User-facing"],summary:"High practical urgency because of Chrome's ubiquity, even when the specific root cause matters less to a non-research audience than the simple fact of active exploitation.",bullets:["Useful if you want a polished 'user-facing software is a front door' message.","Pairs well with browser hardening and rapid-update discussion.","Good case for emphasizing exploit activity over theoretical severity."]},
+      {id:"CVE-2025-55182",label:"React2Shell",vendor:"React Server Components",family:"Web / Framework",operationalRisk:9.2,exploitMomentum:8.6,internetExposure:9.1,patchUrgency:9.5,chips:["Pre-auth RCE","Framework","Server-side"],summary:"A server-side framework issue that stands out because a single vulnerable internet-facing application can create outsized operational risk despite smaller absolute footprint than browsers.",bullets:["Strong offensive talking point for internet-facing application compromise.","Good example of why framework issues can move fast across many deployments.","Useful for appsec audiences because exploitation can be tied to deployment patterns."]},
+      {id:"CVE-2025-10035",label:"GoAnywhere MFT RCE",vendor:"Fortra GoAnywhere",family:"File Transfer / Edge",operationalRisk:9.3,exploitMomentum:8.7,internetExposure:8.9,patchUrgency:9.4,chips:["MFT","RCE","High-value edge"],summary:"Managed file transfer products remain attractive because they often expose sensitive data flows and sit directly on critical trust boundaries.",bullets:["Excellent for showing why externally reachable transfer and admin tools deserve top-tier monitoring.","Useful in ransomware narratives because public-facing apps are common initial access targets.","Pairs well with compensating controls like segmentation, WAF, and emergency patch motion."]}
+    ];
+
+    const metricMeta = {
+      operationalRisk: {label:"Operational Risk", short:"Risk"},
+      exploitMomentum: {label:"Exploit Momentum", short:"Momentum"},
+      internetExposure: {label:"Internet Exposure", short:"Exposure"},
+      patchUrgency: {label:"Patch Urgency", short:"Urgency"}
+    };
+
+    function colorForMetric(metric){
+      const colors = {operationalRisk:"#ff4d5a", exploitMomentum:"#ff7b72", internetExposure:"#ff8a3d", patchUrgency:"#ff5964"};
+      return colors[metric] || "#ff4d5a";
+    }
+
+    function render(metric){
+      const labels = vulns.map(v => v.id);
+      const values = vulns.map(v => v[metric]);
+      const customdata = vulns.map(v => [v.label,v.vendor,v.family]);
+      Plotly.newPlot("chart", [{
+        type:"scatterpolar",
+        r:[...values, values[0]],
+        theta:[...labels, labels[0]],
+        fill:"toself",
+        line:{color:colorForMetric(metric), width:3},
+        fillcolor:"rgba(255,77,90,0.18)",
+        marker:{color:colorForMetric(metric), size:8},
+        customdata:[...customdata, customdata[0]],
+        hovertemplate:"<b>%{theta}</b><br>%{customdata[0]}<br>Vendor: %{customdata[1]}<br>Family: %{customdata[2]}<br>"+metricMeta[metric].label+": %{r}<extra></extra>"
+      }], {
+        paper_bgcolor:"rgba(0,0,0,0)",
+        plot_bgcolor:"rgba(0,0,0,0)",
+        margin:{t:30,r:35,b:40,l:35},
+        font:{color:"#e8edf3", family:"Inter, Segoe UI, Arial, sans-serif"},
+        polar:{
+          bgcolor:"rgba(0,0,0,0)",
+          radialaxis:{visible:true, range:[0,10], tickvals:[2,4,6,8,10], tickfont:{color:"#9aa6b2"}, gridcolor:"#2a313d", linecolor:"#2a313d", angle:90},
+          angularaxis:{tickfont:{size:12,color:"#d7dde5"}, gridcolor:"#2a313d", linecolor:"#2a313d", rotation:90, direction:"clockwise"}
+        },
+        showlegend:false
+      }, {displayModeBar:false, responsive:true});
+      document.getElementById("kpiMetric").textContent = metricMeta[metric].short;
+      document.getElementById("chart").on("plotly_click", function(evt){ loadDetails(evt.points[0].theta); });
+    }
+
+    function loadDetails(id){
+      const v = vulns.find(x => x.id === id) || vulns[0];
+      document.getElementById("detailTitle").textContent = v.id + " — " + v.label;
+      const chips = document.getElementById("detailChips");
+      chips.innerHTML = "";
+      [v.vendor, v.family].concat(v.chips).forEach(c => {
+        const span = document.createElement("span");
+        span.className = "chip";
+        span.textContent = c;
+        chips.appendChild(span);
+      });
+      document.getElementById("detailSummary").textContent = v.summary;
+      const ul = document.getElementById("detailBullets");
+      ul.innerHTML = "";
+      v.bullets.forEach(b => {
+        const li = document.createElement("li");
+        li.textContent = b;
+        ul.appendChild(li);
+      });
+    }
+
+    render("operationalRisk");
+    loadDetails("CVE-2026-1603");
+    document.getElementById("metricSelect").addEventListener("change", function(e){ render(e.target.value); });
+  </script>
+</body>
+</html>
