@@ -1,4 +1,4 @@
-# 👋 Michael Mancuso
+# Michael Mancuso
 
 ![Banner](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧠 Recruiter Snapshot
+## Recruiter Snapshot
 
 Senior Penetration Tester specializing in **Red Team operations, Azure/AWS cloud security, Active Directory exploitation, and purple team detection engineering**.  
 Experienced in building **custom offensive tooling**, conducting **enterprise penetration tests**, and improving **SOC detection coverage aligned to MITRE ATT&CK**.
