@@ -1,4 +1,4 @@
-# 👋 Michael Mancuso
+# Michael Mancuso
 
 ![Banner](https://github.com/MichaelMancuso/MichaelMancuso/assets/8110127/63529f89-aad7-4104-82a5-4c87d8bcb346)
 
